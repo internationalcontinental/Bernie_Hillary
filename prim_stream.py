@@ -11,6 +11,7 @@ csecret = "w3bJirguKsOtAmoOzjnySvucLSzerTo1zMTXDkExOU7HqpDfsD"
 
 auth = OAuthHandler(ckey, csecret)
 auth.set_access_token(atoken, asecret)
+
 api = tweepy.API(auth)
  
 
